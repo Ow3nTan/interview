@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>interview</title>
-        <h1>question 1</h1>
+        <title>question 1</title>
+        <h1>photo-sharing Login</h1>
     </head>
     <body>
-        <p>
-            this is a test
-        </p>
+        <form method="post" action="php/login.php">
+            <label for="email">email: </label>
+            <input name="email" placeholder="enter email here" type="email"><br/><br/>
+            <label for="password">password: </label>
+            <input name="password" placeholder="enter password here" type="password">
+            <button type="submit">login</button>
+        </form>
+        <div>
+            <p><a href="register.html">create new account here</a></p>
+        </div>
     </body>
 </html>
